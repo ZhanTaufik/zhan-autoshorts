@@ -1,0 +1,27 @@
+# YouTube Shorts Automation Bot – Python dependencies
+
+# Reddit scraping
+praw>=7.7.0
+
+# AI script generation
+anthropic>=0.25.0
+
+# TTS
+gtts>=2.5.1           # free Google TTS
+openai>=1.30.0        # optional: OpenAI TTS (set TTS_ENGINE=openai)
+
+# Video editing
+moviepy>=1.0.3
+imageio[ffmpeg]>=2.34.0
+Pillow>=10.0.0
+
+# YouTube upload
+google-api-python-client>=2.130.0
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.2.0
+
+# HTTP
+requests>=2.31.0
+
+# Env management
+python-dotenv>=1.0.0
